@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="Elena Joy is an experienced photographer with expertise in all mediums. Portraits, Weddings, Parties, and More. Get in touch!">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="manifest" href="/manifest.json">
+    <title>Elena Joy || Photography</title>
+</head>
+
+<body>
+    <header id="main-head">
+        <nav>
+            <h1 class="animate__animated animate__backInRight">Elena Joy</h1>
+            <div class="hamburger" onclick="burger()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="nav-link">
+                <li><a href="#hero" onclick="burger()">Home</a></li>
+                <li><a href="#about" onclick="burger()">About</a></li>
+                <li><a href="#gallery" onclick="burger()">Gallery</a></li>
+                <li><a href="#contact" onclick="burger()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero-intro flex">
+                <h2>Elena Joy <br> Photography</h2>
+                <p>Elena Joy is an experienced photographer with expertise in all mediums. Portraits, Weddings, Parties,
+                    and More. Get in touch!
+                </p>
+                <a href="#gallery">Gallery</a>
+            </div>
+            <div class="hero-images">
+                <img src="/img/elena-joy.png" alt="elena-joy photo" class="hero-elena">
+                <img src="/img/plant1.png" alt="" class="plant1 plant">
+                <img src="/img/plant2.png" alt="" class="plant2 plant">
+            </div>
+        </section>
+        <section id="about">
+            <div class="about-image">
+                <h2>MINIMAL</h2>
+                <img src="/img/about-image.png" alt="portrait-image">
+            </div>
+            <div class="about-text flex">
+                <h1>Elena Joy</h1>
+                <div class="about-life">
+                    <h4>My Life</h4>
+                    <p>I have been practicing photography and shooting in a professional setting for over a decade. If
+                        you need your special moment captured, call me.</p>
+                </div>
+                <div class="about-work">
+                    <h4>My Work</h4>
+                    <p>I tend to specialize in portrait and artsy photos, though I can shoot any kind of event or
+                        special occasion. I love weddings!</p>
+                </div>
+                <div class="about-life">
+                    <h4>Get In Touch</h4>
+                    <p>Please fill out the form at the bottom of the page to contact me. Due to a high volume of
+                        clientele, I will get back to you as soon as possible.</p>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="gallery__text">
+                <h2>Photography for You.</h2>
+                <p>Choose from any style</p>
+            </div>
+            <img class="gallery__1" src="/img/gallery-1.jpg" alt="man in suit">
+            <img class="gallery__2" src="/img/gallery-2.jpg" alt="girl in coat">
+            <img class="gallery__3" src="/img/gallery-3.jpg" alt="girl in t-shirt">
+            <img class="gallery__4" src="/img/gallery-4.jpg" alt="girl in jacket">
+        </section>
+
+        <section id="contact">
+            <div class="form-wrap flex">
+                <h2>Get in <br> <span>touch.</span></h2>
+                <form>
+                    <label for="email">Your Email:</label>
+                    <input type="email" name="email" id="email" required minlength='10' maxlength="50">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <img src="/img/contact-image.jpg" alt="elena-joy">
+            <footer>
+                <h5>Made With ❤ By <a href="https://www.linkedin.com/in/hardik-prajapati-2547a21b4/" target="__blank" title="Linkedin">Hardik Prajapati</a></h5>
+            </footer>
+        </section>
+        
+        
+    </main>
+    <script src="/burger.js"></script>
+</body>
+
+</html>
